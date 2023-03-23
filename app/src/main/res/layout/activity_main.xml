@@ -11,13 +11,13 @@
         android:id="@+id/skipButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Skip"
         android:layout_margin="16dp"
-        android:textStyle="bold"
         android:fontFamily="@font/urbanist"
+        android:text="Skip"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,23 +32,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <TextView
         android:id="@+id/backbtn"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Back"
-        android:textSize="16dp"
-        android:visibility="invisible"
-        android:gravity="center"
         android:layout_margin="16dp"
-        android:textAllCaps="true"
         android:background="@drawable/whiterec"
-        android:fontFamily="@font/urbanist"
-        android:padding="16dp"
         android:elevation="2dp"
-        android:textStyle="bold"
+        android:fontFamily="@font/urbanist"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Back"
+        android:textAllCaps="true"
         android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -56,35 +55,32 @@
         android:id="@+id/nextbtn"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/blackrec"
         android:layout_margin="16dp"
-        android:text="Next"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="16dp"
-        android:textAllCaps="true"
+        android:background="@drawable/blackrec"
         android:elevation="2dp"
         android:fontFamily="@font/urbanist"
+        android:gravity="center"
         android:padding="16dp"
+        android:text="Next"
+        android:textAllCaps="true"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <LinearLayout
         android:id="@+id/indicator_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/slideViewPager">
 
 
-
     </LinearLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
