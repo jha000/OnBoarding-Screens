@@ -1,4 +1,4 @@
-# OnBoarding-Screens
+# OnBoarding UI Screens
 
 This project is an Android app that includes onboarding screens before the login page. It is made using Kotlin, XML, Material Design, and RecyclerView.
 
@@ -21,14 +21,18 @@ To install and run this app on your local machine, please follow these steps:
 
 This project uses the following dependencies:
 
-- androidx.appcompat:appcompat:1.6.0
-- com.google.android.material:material:1.7.0
-- androidx.constraintlayout:constraintlayout:2.1.4
-- testImplementation 'junit:junit:4.13.2'
-- com.airbnb.android:lottie:3.7.0
-- de.hdodenhof:circleimageview:3.1.0'
-- androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-- androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+```python
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.airbnb.android:lottie:3.7.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+
+```
 
 You can add these dependencies to your project by adding the following lines to your app's `build.gradle` file:
-
