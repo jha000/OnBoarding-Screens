@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">assignment</string>
+
+    <!--    Headings-->
+    <string name="heading_one">Getting started is easy</string>
+    <string name="heading_two">Track your mood and reflect on your day</string>
+    <string name="heading_three">Start discovering personal recommendations</string>
+    <string name="heading_fourth">Find new friends nearby</string>
+
+    <!--    Description-->
+    <string name="desc_one">Create your user and workspace name, add coworkers and you\'re in.</string>
+    <string name="desc_two">Get an overview of how you are performing and motivate yourself to achieve even more.</string>
+    <string name="desc_three">Most people who work in an office environment, buy computer products.</string>
+    <string name="desc_fourth">With millions of user all over the world, we gives you ability to connect with people no matter where you are.</string>
+
+</resources>
