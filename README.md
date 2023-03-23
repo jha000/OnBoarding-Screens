@@ -17,7 +17,7 @@ To install and run this app on your local machine, please follow these steps:
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or physical device.
 
-### Dependencies Used
+## Dependencies Used
 
 This project uses the following dependencies:
 
