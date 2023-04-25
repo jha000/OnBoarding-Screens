@@ -6,8 +6,7 @@ This project is an Android app that includes onboarding screens before the login
 
 - Kotlin
 - XML
-- Material Design
-- RecyclerView
+- Firebase Auth
 
 ## Installation
 
@@ -34,5 +33,3 @@ dependencies {
 }
 
 ```
-
-You can add these dependencies to your project by adding the following lines to your app's `build.gradle` file:
